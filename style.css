@@ -1,13 +1,36 @@
 body {
-  background-color: rgb(132, 138, 175);
+  background-image: url(images/pexels-thomas-brenac-599705.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 15%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  color: whitesmoke;
+  color: black;
+}
+
+#clockContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 42.8vw;
+  height: 42.9vw;
+  border: 0.2vw;
+  border-radius: 50%;
+  margin: 11.1vw .6vw 9.1vw 0;
+  background-image: url(images/clockBackground.png);
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
-  font-size: 100px
+  font-size: 6vw;
+  margin: .2vw;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 3vw;
+  margin: .2vw;
 }
